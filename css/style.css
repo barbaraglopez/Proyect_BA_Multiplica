@@ -12,7 +12,7 @@ body{
 padding: 30px;
 display: flex;
 flex-direction: column;
-background-image:url("/img/explosionpinturarosayvioleta.png");
+background-image:url("./img/explosionpinturarosayvioleta.png");
 background-size: cover;
 width: 100%;
 }

@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;800&display=swap');
 
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
 body{
-  box-sizing: border-box;
   display: flex;
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
@@ -12,7 +21,7 @@ body{
 padding: 30px;
 display: flex;
 flex-direction: column;
-background-image:url("./img/explosionpinturarosayvioleta.png");
+background-image: url("https://img1.goodfon.com/wallpaper/nbig/9/99/lg-g-flex-2-lg-kraski-vzryv.jpg");
 background-size: cover;
 width: 100%;
 }
@@ -67,7 +76,6 @@ section .section--title{
   flex-direction: column;
   justify-content: flex-start;
   border-bottom: 3px solid white;
-  width:43em;
 }
 
 section .section--title .section--tittleAbstract h2{
@@ -79,8 +87,8 @@ section .section--title .section--tittleAbstract h2{
 section .section--title .section--tittleLanding h1{
   font-family:'Montserrat', sans-serif;
   font-size: 35px;
-  width:43em;
   color: white;
+  margin-top:15px;
 }
 
 section p{

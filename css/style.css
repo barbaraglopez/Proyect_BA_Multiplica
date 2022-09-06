@@ -54,6 +54,10 @@ width: 100%;
   color:white;
 }
 
+.bodyContainer .navbar--list ul li{
+text-decoration: none;
+}
+
 .bodyContainer .navbar--list ul li:hover {
   color:violet;
 }
@@ -105,7 +109,7 @@ section button{
   margin-top: 20px;
   font-size: 20px;
   font-weight: 400;
-  background-color: rgb(156, 113, 196);
+  background-color: white;
   color: white;
   font-family:'Montserrat', sans-serif;
   border-radius: 10px;

@@ -10,6 +10,10 @@ font: inherit;
 vertical-align: baseline;
 }
 
+a{
+  text-decoration: none;
+}
+
 body{
   display: flex;
   margin: 0 auto;
@@ -54,12 +58,13 @@ width: 100%;
   color:white;
 }
 
-.bodyContainer .navbar--list ul li{
-text-decoration: none;
+.bodyContainer .navbar--list ul li a{
+font-size: 18px;
+font-weight:bold;
 }
 
-.bodyContainer .navbar--list ul li:hover {
-  color:violet;
+.bodyContainer .navbar--list ul li a:hover{
+  color:white;
 }
 
 .bodyContainer .navbar--list ul li img{
@@ -109,7 +114,7 @@ section button{
   margin-top: 20px;
   font-size: 20px;
   font-weight: 400;
-  background-color: white;
+  background-color: black;
   color: white;
   font-family:'Montserrat', sans-serif;
   border-radius: 10px;
@@ -151,4 +156,10 @@ footer  img{
   margin: 10px;
   width: 25px;
   height: 25px;
+}
+
+@media(max-width:850px){
+  body{
+    background-color: aqua;
+  }
 }

@@ -108,6 +108,10 @@ section p{
   font-size: 17px;
 }
 
+section .section-a{
+  background-color: aqua;
+}
+
 section a .btn-starNow{
   cursor: pointer;
   padding: 10px;
@@ -120,14 +124,13 @@ section a .btn-starNow{
   border-radius: 10px;
   border: 1px solid white;
   width:50%;
-}
+} 
 
 section a .btn-starNow:hover{
   background-color: rgb(132, 88, 173);
   color: black;
   border: 1px solid black;
 } 
-
 section .section--socialMedia{
   margin-top:150px;
   display: flex;

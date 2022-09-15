@@ -1,0 +1,135 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+border: 0;
+font-size: 100%;
+font: inherit;
+width: 100%;
+}
+
+nav .navbar{
+    height: 65%;
+}
+
+form .btn-outline{
+background-color: #426F9E;
+color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    background-color: #d7e3f0;
+}
+
+.section--title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 90%;
+    margin: 4%;
+    height: 40%;
+    border-bottom:solid 1px #426F9E ;
+}
+
+
+.section--tittleAbstract h2{
+    color: #426F9E ;
+}
+
+section .lorem{
+    margin-left: 4%;
+    width: 70%;
+    padding: 2%;
+
+}
+
+section .btn-start{
+    margin-left: 4%;
+    width: 50%;
+    text-decoration: none;
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+section .btn-start:hover{
+    background-color: #426F9E;
+    color: white;
+    border: 1px solid black;
+}
+
+.section--socialMedia{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 2px solid #426F9E;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.section--socialMedia form{
+    width: 40%;
+    height: 30%;
+}
+
+.section--socialMedia form button{
+    background-color: black;
+    color: white;
+    width: 20%;
+}
+
+.section--socialMedia form button:hover{
+    background-color: black;
+    color: white;
+}
+
+section .icons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:5px;
+    background-color: black;
+}
+
+section .icons img{
+    width: 55px;
+    height: 50%;
+    margin: 0.5%;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #426F9E ;
+    position: relative;
+    bottom: 0;
+}
+
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+
+footer p img{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
